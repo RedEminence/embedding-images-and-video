@@ -73,3 +73,15 @@ header .btn-container {
 
 	padding-top: 5px;
 }
+
+.search-btn:hover {
+    background-color: #e3e3e3;
+}
+
+.centered-container {
+	vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
