@@ -3,7 +3,21 @@ header {
 }
 
 body {
-	background-color: blue;
+	
+}
+
+
+.video-list {
+	display: inline-block;
+}
+
+
+.videonstuff {
+	display: inline-block;
+}
+
+ul {
+	list-style: none;
 }
 
 .btn-container,
@@ -29,7 +43,7 @@ body {
     margin-top: -20px;
 }
 
-.user_info {
+.user-info {
 	float: right;
 }
 
@@ -64,7 +78,7 @@ header .btn-container {
 	margin-left: -4px;
 }
 
-.user_info {
+.user-info {
 	margin-top: 10px;
 }
 
@@ -80,8 +94,68 @@ header .btn-container {
 
 .centered-container {
 	vertical-align: middle;
-    display: inline-block;
-    position: relative;
-    width: 100%;
-    text-align: center;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+h3 {
+	text-align: left;
+	background-color: white;
+	font-weight: normal;
+}
+
+
+.profile-pic {
+	
+}
+
+.profile-rest {
+
+	display: inline-block;
+	text-align: left;
+}
+
+
+.profile-pic,
+.comment-text,
+.fa-thumbs-up,
+.fa-thumbs-down,
+.respond,
+.date {
+	display: inline-block;
+}
+
+.conmments-area {
+	display: inline-block;
+}
+
+.respond:hover {
+	cursor: pointer;
+	font-weight: bolder;
+}
+
+.respond {
+	font-weight: 100;
+}
+
+.comments-area {
+	width: 855px;
+}
+
+
+.clearfix::after, 
+.clearfix::before {
+    content: "";
+    display: table;
+
+}
+
+.clearfix::after {
+	clear: both;
+}
+
+.video-list2 {
+	margin-bottom: 300px;
 }
